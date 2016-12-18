@@ -1,15 +1,175 @@
-2016-Dec-16 10:20:57 Наличие необходимых модулей php (check_php_modules): Ok
+2016-Dec-16 18:01:13 Наличие необходимых модулей php (check_php_modules): Ok
 Все необходимые модули установлены
-2016-Dec-16 10:20:57 Обязательные параметры PHP (check_php_settings): Ok
+2016-Dec-16 18:01:13 Обязательные параметры PHP (check_php_settings): Ok
 Настройки правильные
-2016-Dec-16 10:20:57 Модули веб-сервера (check_security): Ok
+2016-Dec-16 18:01:13 Модули веб-сервера (check_security): Ok
 Конфликтов не выявлено
-2016-Dec-16 10:20:57 Значения переменных сервера (check_server_vars): Ok
+2016-Dec-16 18:01:14 Значения переменных сервера (check_server_vars): Ok
 Корректные
-2016-Dec-16 10:20:57 Сохранение сессии (check_session): Ok
+2016-Dec-16 18:01:14 Сохранение сессии (check_session): Ok
 50% done
-2016-Dec-16 10:20:57 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
+2016-Dec-16 18:01:14 Сохранение сессии (check_session): Ok
+Успешно
+2016-Dec-16 18:01:14 Параметры настройки UTF (mbstring и константа BX_UTF) (check_mbstring): Ok
 Правильные. Сайт работает в UTF кодировке
-2016-Dec-16 10:20:57 Служебные скрипты в корне сайта (check_install_scripts): Fail
-Ошибка! Файл существует: restore.php
+2016-Dec-16 18:01:14 Служебные скрипты в корне сайта (check_install_scripts): Ok
+Отсутствуют
+2016-Dec-16 18:01:14 Работа с сокетами (check_socket): Ok
+Connection to localhost:6448	Success
 
+Успешно
+2016-Dec-16 18:01:14 Параметры подключения к базе данных (check_dbconn_settings): Ok
+Успешно
+2016-Dec-16 18:01:14 Лишний вывод в файлах конфигурации (check_dbconn): Fail
+Connection to localhost:6448	Success
+== Request ==
+GET /bitrix/admin/site_checker.php?test_type=dbconn_test&unique_id=643e9d82980e190ef986f7ca3a4e15f6 HTTP/1.1
+Host: localhost
+
+
+== Response ==
+HTTP/1.1 200 OK
+Date: Fri, 16 Dec 2016 15:01:14 GMT
+Server: Apache/2.2.15 (Win32) mod_ssl/2.2.15 OpenSSL/0.9.8n mod_auth_sspi/1.0.4
+X-Powered-By: PHP/5.3.2 ZendServer
+P3P: policyref="/bitrix/p3p.xml", CP="NON DSP COR CUR ADM DEV PSA PSD OUR UNR BUS UNI COM NAV INT DEM STA"
+X-Powered-CMS: Bitrix Site Manager (0d1a36acd6fc1a372c3afae1d37a4e81)
+Set-Cookie: PHPSESSID=8f72mh40ppa39b50kaug63lhn2; path=/; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+== Body ==
+Length: 1 (
+)
+==========
+
+Ошибка! Не работает
+2016-Dec-16 18:01:14 Выполнение агентов на cron (check_bx_crontab): Warning
+Замечание. Агенты выполняются на хитах, рекомендуется перевести выполнение агентов на cron
+2016-Dec-16 18:01:14 Сохранение сессии без UserAgent (check_session_ua): Ok
+50% done
+Connection to localhost:6448	Success
+
+2016-Dec-16 18:01:14 Сохранение сессии без UserAgent (check_session_ua): Ok
+Connection to localhost:6448	Success
+
+Успешно
+2016-Dec-16 18:01:14 Настройки сайтов (check_sites): Ok
+Правильные
+2016-Dec-16 18:01:14 Передача объектов по ссылке (check_clone): Ok
+Успешно
+2016-Dec-16 18:01:14 Размер стека и pcre.recursion_limit (check_pcre_recursion): Ok
+Connection to localhost:6448	Success
+
+Успешно
+2016-Dec-16 18:01:14 Вызов method_exists на строке (check_method_exists): Ok
+Connection to localhost:6448	Success
+
+Успешно
+2016-Dec-16 18:01:14 Загрузка файла (check_upload): Ok
+Connection to localhost:6448	Success
+
+Успешно
+2016-Dec-16 18:01:15 Загрузка файла больше 4Мб (check_upload_big): Ok
+Connection to localhost:6448	Success
+
+Успешно
+2016-Dec-16 18:01:15 Загрузка файла через php://input (check_upload_raw): Ok
+Connection to localhost:6448	Success
+
+Успешно
+2016-Dec-16 18:01:15 Передача POST запроса с большим числом параметров (check_post): Ok
+Connection to localhost:6448	Success
+
+Успешно
+2016-Dec-16 18:01:15 Отправка почты (check_mail): Fail
+Ошибка! Не работает
+2016-Dec-16 18:01:15 Отправка почтового сообщения больше 64Кб (check_mail_big): Fail
+Ошибка! Не работает
+2016-Dec-16 18:01:15 Проверка на наличие неотправленных сообщений (check_mail_b_event): Ok
+Успешно
+2016-Dec-16 18:01:15 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+50% done
+Connection to localhost:6448	Success
+
+2016-Dec-16 18:01:15 Внутреннее перенаправление (функция LocalRedirect) (check_localredirect): Ok
+Connection to localhost:6448	Success
+
+Успешно
+2016-Dec-16 18:01:15 Фактическое ограничение памяти (check_memory_limit): Ok
+20% done
+Connection to localhost:6448	Success
+
+2016-Dec-16 18:01:15 Фактическое ограничение памяти (check_memory_limit): Ok
+40% done
+Connection to localhost:6448	Success
+
+2016-Dec-16 18:01:15 Фактическое ограничение памяти (check_memory_limit): Ok
+60% done
+Connection to localhost:6448	Success
+
+2016-Dec-16 18:01:15 Фактическое ограничение памяти (check_memory_limit): Ok
+80% done
+Connection to localhost:6448	Success
+
+2016-Dec-16 18:01:16 Фактическое ограничение памяти (check_memory_limit): Ok
+Connection to localhost:6448	Success
+
+Не менее 256 М
+2016-Dec-16 18:01:16 Работа с файлами кеша (check_cache): Ok
+Успешно
+2016-Dec-16 18:01:16 Доступ к серверу обновлений (check_update): Ok
+Успешно
+2016-Dec-16 18:01:16 HTTP авторизация (check_http_auth): Ok
+Connection to localhost:6448	Success
+
+Успешно
+2016-Dec-16 18:01:16 Создание и запуск файла (check_exec): Ok
+Connection to localhost:6448	Success
+
+Успешно
+2016-Dec-16 18:01:16 Функция getimagesize для swf (check_getimagesize): Ok
+Успешно
+2016-Dec-16 18:01:16 Версия MySQL-сервера (check_mysql_bug_version): Ok
+Успешно
+2016-Dec-16 18:01:18 Время на БД и веб-сервере (check_mysql_time): Ok
+Успешно
+2016-Dec-16 18:01:18 Режим работы MySQL (check_mysql_mode): Ok
+Успешно
+2016-Dec-16 18:01:18 Кодировка соединения (check_mysql_connection_charset): Ok
+character_set_connection=utf8, collation_connection=utf8_unicode_ci, character_set_results=utf8
+Успешно
+2016-Dec-16 18:01:18 Кодировка базы данных (check_mysql_db_charset): Ok
+CHARSET=utf8, COLLATION=utf8_unicode_ci
+Успешно
+2016-Dec-16 18:01:18 Кодировки таблиц в БД (check_mysql_table_charset): Ok
+Успешно
+2016-Dec-16 18:01:19 Структура базы данных (check_mysql_table_structure): Ok
+0% done
+2016-Dec-16 18:01:21 Структура базы данных (check_mysql_table_structure): Ok
+4% done
+2016-Dec-16 18:01:22 Структура базы данных (check_mysql_table_structure): Ok
+9% done
+2016-Dec-16 18:01:22 Структура базы данных (check_mysql_table_structure): Ok
+14% done
+2016-Dec-16 18:01:23 Структура базы данных (check_mysql_table_structure): Ok
+19% done
+2016-Dec-16 18:01:26 Структура базы данных (check_mysql_table_structure): Ok
+23% done
+2016-Dec-16 18:01:30 Структура базы данных (check_mysql_table_structure): Ok
+28% done
+2016-Dec-16 18:01:30 Структура базы данных (check_mysql_table_structure): Ok
+33% done
+2016-Dec-16 18:01:34 Структура базы данных (check_mysql_table_structure): Ok
+38% done
+2016-Dec-16 18:01:44 Структура базы данных (check_mysql_table_structure): Ok
+42% done
+2016-Dec-16 18:01:45 Структура базы данных (check_mysql_table_structure): Ok
+47% done
+2016-Dec-16 18:01:47 Структура базы данных (check_mysql_table_structure): Ok
+52% done
+2016-Dec-16 18:01:48 Структура базы данных (check_mysql_table_structure): Ok
+57% done
